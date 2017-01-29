@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+  >
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333">
+ 
+        <!--  Header Starts-->
+    <LinearLayout android:id="@+id/header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="5dip"
+    	android:orientation="horizontal"
+        android:gravity="center">
+        
+         <ImageView android:src="@drawable/launcher"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+        
+        <TextView android:id="@+id/txt_talii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00F"
+            android:textSize="26dip"
+            android:layout_marginLeft="40dip"
+            android:text="" />
+               
+        <!-- Logo Ends -->
+	</LinearLayout>
+        <!--  Header Ends -->
+        
+        <LinearLayout android:id="@+id/body"
+          
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="10dip"
+          android:layout_below="@id/header"
+          android:layout_margin="10dip"
+          android:background="#333"
+          android:gravity="center">	          
+	            
+	           <TextView
+	                android:id="@+id/talii"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="2dip"
+	                android:layout_marginBottom="2dip"
+	                android:text="Talii Mombasa-Kenya "
+	                android:gravity="center"
+	                android:scrollHorizontally="false"
+	                android:textSize="32dip"
+	                android:textStyle="bold"
+	                android:typeface="sans"
+	                android:textColor="#00F"
+	              />
+	     
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:text="Celebrate Mombasa-Kenya: Diversity is our strength"
+                android:gravity="center"
+                android:scrollHorizontally="false"
+                android:textSize="16dip"
+                android:textColor="#FFF"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:text="Talii Mombasa App lets you discover fancy places around Mombasa when you visit various places in Kenya. Well displayed Maps and Routes help you discover and enjoy the beauty of our Country."
+                android:singleLine="false"
+                android:gravity="center"
+                android:scrollHorizontally="false"
+                android:textSize="14dip"
+                android:textColor="#FFF"/>
+            
+	        <Button android:id="@+id/btn_enter_dashboard"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:text="Tap Here >>"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#FFF"
+                android:background="#222" />
+                               
+     </LinearLayout>   
+       
+ 
+  </RelativeLayout>
+ </ScrollView>

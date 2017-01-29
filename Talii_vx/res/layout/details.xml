@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+	<RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"> 
+	    
+	     <!--  Header Starts-->
+	    <LinearLayout android:id="@+id/header"
+	    	android:layout_width="fill_parent"
+	    	android:background="#333"
+	    	android:padding="5dip"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	        android:gravity="center">
+        
+       <ImageView android:src="@drawable/launcher"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+        
+        <TextView android:id="@+id/txt_talii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00F"
+            android:textSize="26dip"
+            android:layout_marginLeft="40dip"
+            android:text="Talii Kenya" />
+               
+        
+        <!-- Logo Ends -->
+	</LinearLayout>
+        <!--  Header Ends -->
+    
+     <LinearLayout android:id="@+id/body"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/header"
+          android:paddingBottom="40dip">	
+          
+         <TableLayout
+			
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:stretchColumns="1"
+			>
+			<TableRow>			    
+			    <ImageView 
+                    android:id="@+id/imgicon"
+		            android:layout_width="240dip"
+		            android:layout_height="280dip"
+		            android:layout_gravity="center_horizontal"
+		            android:scaleType="fitXY" />
+			    
+			    <TextView android:id="@+id/txt_place_name"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" />               			
+			 </TableRow>   
+	      </TableLayout>
+          
+         <TableLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:stretchColumns="1"
+			>
+			<TableRow>			    
+			    <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Vicinity "/>
+			    <TextView android:id="@+id/txt_vicinity"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" />               			
+			 </TableRow>              
+			
+			 <TableRow>
+			    <TextView  
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Location " />
+			    <TextView android:id="@+id/txt_location"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 		
+			 </TableRow>
+			 <TableRow >
+                <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Address "/>
+			    <TextView android:id="@+id/txt_addr"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 
+			 </TableRow>
+			 <TableRow >
+                <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Phone "/>
+			    <TextView android:id="@+id/txt_phone"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 
+			 </TableRow>
+			 <TableRow >
+                <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Intn Phone "/>
+			    <TextView android:id="@+id/txt_int_phone"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 
+			 </TableRow>
+			 <TableRow >
+                <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Website "/>
+			    <TextView android:id="@+id/txt_web"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 
+			 </TableRow>
+			 <TableRow >
+                <TextView 
+                  android:layout_height="wrap_content"
+                  android:textColor="#00F"
+                  android:text="Rating "/>
+			    <TextView android:id="@+id/txt_rat"
+                  android:layout_height="wrap_content"
+                  android:textColor="#333" /> 
+			 </TableRow>
+			 
+		   </TableLayout>   
+	
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF">
+        
+       <!--  Header Starts-->
+    <LinearLayout android:id="@+id/header"
+    	android:layout_width="fill_parent"
+    	android:background="#333"
+    	android:padding="10dip"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+        android:gravity="center">
+        
+       <ImageView android:src="@drawable/launcher"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+        
+        <TextView android:id="@+id/txt_talii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00F"
+            android:textSize="26dip"
+            android:layout_marginLeft="40dip"
+            android:text="Talii Kenya " />
+               
+        
+        <!-- Logo Ends -->
+	</LinearLayout>
+        <!--  Header Ends -->
+        
+         <LinearLayout android:id="@+id/body"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/header"
+          android:paddingBottom="35dip">	
+          
+            <ListView 
+				  android:id="@+id/label"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:padding="10dip"
+				  android:textSize="16dip"
+				  android:textStyle="bold" >
+		    </ListView>	            
+	                     
+                               
+     </LinearLayout>
+     
+        <LinearLayout android:id="@+id/bottom"
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:gravity="bottom">	 
+          
+            <Button 
+	            android:id="@+id/btn_home"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="0.25"
+	            android:background="@layout/btselector"
+	            android:onClick="onClick"
+	            android:text="Home"
+	            android:textColor="@color/textthin" />
+	
+	        <LinearLayout
+	            android:id="@+id/LinearLayout01"
+	            android:layout_width="0.5dp"
+	            android:layout_height="fill_parent"
+	            android:background="@color/space_menu"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+		        	
+	        <Button
+	            android:id="@+id/btn_rss"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="0.25"
+	            android:background="@layout/btselector"
+	            android:onClick="onClick"
+	            android:text="RSS"
+	            android:textColor="@color/textthin" />
+	        
+	        <LinearLayout
+	            android:id="@+id/LinearLayout03"
+	            android:layout_width="0.5dp"
+	            android:layout_height="fill_parent"
+	            android:background="@color/space_menu"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+	
+	        <Button
+	            android:id="@+id/btn_about"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="0.25"
+	            android:background="@layout/btselector"
+	            android:onClick="onClick"
+	            android:text="About"
+	            android:textColor="@color/textthin" />
+	                
+                               
+     </LinearLayout>        
+ 
+  </RelativeLayout>

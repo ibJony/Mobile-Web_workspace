@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dash_list">
+        <item>Restaurants, Hotels and Bars</item>
+        <item>Game Parks and Reserves</item>
+        <item>Camping Sites</item>
+        <item>Alert</item>
+        
+    </string-array>
+</resources>

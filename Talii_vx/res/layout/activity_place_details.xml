@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+  >
+  
+<TabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#669" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/tabs" >
+ 
+            <LinearLayout 
+                android:id="@+id/info"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical" 
+			    android:padding="10dip">
+			    
+               <TableLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:stretchColumns="1"
+				android:shrinkColumns="1"
+				>				
+				<TableRow>			    
+				    <ImageView 
+	                    android:id="@+id/imgicon"
+			            android:layout_width="180dip"
+			            android:layout_height="200dip"
+			            android:layout_gravity="center_horizontal"
+			            android:scaleType="fitXY" />
+				    
+				    <TextView android:id="@+id/txt_place_name"
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="20dip"
+	                  android:singleLine="false"
+	                  android:scrollHorizontally="false" />               			
+				 </TableRow>   
+		      </TableLayout>
+	          
+	         <TableLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:stretchColumns="1"
+				android:shrinkColumns="1"
+				>
+				<TableRow>			    
+				    <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Vicinity "/>
+				    <TextView android:id="@+id/txt_vicinity"
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#333"
+	                  android:textSize="16dip"
+	                  android:singleLine="false" />               			
+				 </TableRow>              
+				
+				 <TableRow>
+				    <TextView  
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Location " />
+				    <TextView android:id="@+id/txt_location"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 		
+				 </TableRow>
+				 <TableRow >
+	                <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Address "/>
+				    <TextView android:id="@+id/txt_addr"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 
+				 </TableRow>
+				 <TableRow >
+	                <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Phone "/>
+				    <TextView android:id="@+id/txt_phone"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 
+				 </TableRow>
+				 <TableRow >
+	                <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Intn Phone "/>
+				    <TextView android:id="@+id/txt_int_phone"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 
+				 </TableRow>
+				 <TableRow >
+	                <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Website "/>
+				    <TextView android:id="@+id/txt_web"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 
+				 </TableRow>
+				 <TableRow >
+	                <TextView 
+	                  android:layout_height="wrap_content"
+	                  android:textColor="#00F"
+	                  android:textSize="16dip"
+	                  android:text="Rating "/>
+	                
+				    <TextView android:id="@+id/txt_rat"
+	                  android:layout_height="wrap_content"
+	                  android:textSize="16dip"
+	                  android:textColor="#333" /> 
+				 </TableRow>
+				 
+			   </TableLayout>   
+			   <Button 
+			       android:id="@+id/btn_share"
+			       android:text="Share"
+			       android:textColor="#00F"
+			       android:textSize="20dip"
+			       android:layout_height="wrap_content"
+			       android:layout_width="match_parent"
+			       android:layout_gravity="center"
+			       />
+			
+			
+			</LinearLayout>
+			
+             <RelativeLayout 
+	                android:id="@+id/route" android:orientation="vertical"
+	                android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+			    <TextView
+			        android:id="@+id/tv_distance_time"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentTop="true" />
+			    
+			    <fragment 
+			        android:id="@+id/map_direction"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"        
+			        class="com.google.android.gms.maps.SupportMapFragment" 
+			        android:layout_below="@id/tv_distance_time" />    
+
+	          </RelativeLayout>			
+           
+		    <RelativeLayout 
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+			    xmlns:tools="http://schemas.android.com/tools"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:paddingBottom="@dimen/activity_vertical_margin"
+			    android:paddingLeft="@dimen/activity_horizontal_margin"
+			    android:paddingRight="@dimen/activity_horizontal_margin"
+			    android:paddingTop="@dimen/activity_vertical_margin"
+			    android:id="@+id/weather"
+			    >  
+		    
+		    <LinearLayout
+		        android:id="@+id/top"
+		        android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="0dip"
+			    android:background="#669"
+			    android:layout_centerHorizontal="true"
+			    android:orientation="vertical" >
+		        
+		        <TextView
+			        android:id="@+id/city"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="24dip"
+			        android:textColor="#FFF"
+			        android:text="Location"
+			        android:gravity="center" />
+			    <TextView
+			        android:id="@+id/cityText"
+			        style="?android:attr/textAppearanceMedium"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:textColor="#FFF" />
+		        
+		    </LinearLayout>
+		    
+		    <ImageView
+		        android:id="@+id/condIcon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@id/top" />
+		
+		    <TextView
+		        android:id="@+id/condDescr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/condIcon"
+		        android:layout_alignLeft="@id/condIcon" 
+		       />
+		
+		    <TextView
+		        android:id="@+id/temp"
+		        style="@style/tempStyle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="12dp"
+		        android:layout_alignBaseline="@id/condDescr"
+		        android:layout_toRightOf="@id/condDescr"/>
+		
+		    <TextView
+		        android:id="@+id/pressLab"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@id/condDescr"
+		        android:text="Pressure"
+		        android:layout_marginTop="15dp" />
+		
+		    <TextView
+		        android:id="@+id/press"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@id/pressLab"
+		        android:layout_toRightOf="@id/pressLab" 
+		        style="@style/valData"/>
+		
+		    <TextView
+		        android:id="@+id/humLab"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@id/pressLab"
+		        android:text="Humidity" />
+		
+		    <TextView
+		        android:id="@+id/hum"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@id/humLab"
+		        android:layout_toRightOf="@id/humLab" 
+		        android:layout_marginLeft="4dp"
+		        style="@style/valData"/>
+		
+		    <TextView
+		        android:id="@+id/windLab"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@id/humLab"
+		        android:text="Wind" />
+		
+		    <TextView
+		        android:id="@+id/windSpeed"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@id/windLab"
+		        android:layout_toRightOf="@id/windLab"
+		        android:layout_marginLeft="4dp"
+		        style="@style/valData" />
+		
+		    <TextView
+		        android:id="@+id/windDeg"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@id/windLab"
+		        android:layout_toRightOf="@id/windSpeed"
+		        android:layout_marginLeft="4dp" 
+		        style="@style/valData"/>
+		    
+		    		
+		  </RelativeLayout>
+			                        
+        </FrameLayout>   
+                   
+    </RelativeLayout> 
+    
+
+</TabHost>
+</ScrollView>
