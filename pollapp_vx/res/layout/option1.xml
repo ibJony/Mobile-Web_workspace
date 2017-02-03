@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dip"
+    android:paddingTop="22dip"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:paddingBottom="20dip"
+            android:text="Question of the day?" />
+    
+    <RadioGroup android:id="@+id/radioGroup1"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton android:text="Yes"
+            android:layout_width="wrap_content" 
+            android:id="@+id/radio0"
+            android:layout_height="wrap_content"
+            android:padding="25dip" />
+        
+        <RadioButton android:text="No"
+            android:layout_width="wrap_content" 
+            android:id="@+id/radio1"
+            android:layout_height="wrap_content"
+            android:padding="25dip" />
+        
+    </RadioGroup>
+    
+    <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:text="Submit"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+    
+    
+</LinearLayout>
