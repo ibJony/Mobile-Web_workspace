@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPoll</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt">Select Poll Code</string>
+    <string name="str_btn_chart">Pie Chart</string>
+
+</resources>

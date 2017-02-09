@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        	android:id="@+id/pollQn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/radio0"
+            android:text="Yes"
+            android:textSize="20dip" />
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/radio1"
+            android:paddingLeft="25dip"
+            android:text="No"
+            android:textSize="20dip" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" />
+    </RadioGroup>
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/txtcomment"
+            android:text="Comment" />
+    
+    <EditText
+            android:id="@+id/txtcomment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comment here"
+            android:lines="4"/>
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/txtby"
+            android:text="Submitted by" />
+    
+    <EditText
+            android:id="@+id/txtby"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Submitted by"
+            android:lines="1"/>
+
+    <Button
+            android:id="@+id/btnpollsubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Submit"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+    
+    <Button android:id="@+id/btnStats2"
+        android:text="View Results"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="15dip"/>
+    
+</LinearLayout>    
+</ScrollView>
