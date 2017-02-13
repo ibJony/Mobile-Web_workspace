@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="GreenActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="actionBarStyle">@style/GreenActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="GreenActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/green_actionbar</item>
+        <item name="background">@drawable/green_actionbar</item>
+    </style>
+
+
+</resources>

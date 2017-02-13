@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pollQn2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:text="Yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Comment" />
+
+            <EditText
+                android:id="@+id/txtcomment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment here"
+                android:lines="4"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Submitted by" />
+
+            <EditText
+                android:id="@+id/txtby"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Submitted by"
+                android:lines="1"/>
+
+            <Button
+                android:id="@+id/btnpollsubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#20b392"
+                android:text="Submit"
+                android:textColor="#21dbd4"
+                android:textStyle="bold" />
+
+            <Button android:id="@+id/btnStats2"
+                android:text="View Results"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#305d7b"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="15dip"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

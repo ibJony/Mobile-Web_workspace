@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/polldesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_centerHorizontal="true"
+        />
+    <ListView
+        android:id="@+id/pollcom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/polldesc"
+        android:layout_above="@+id/btnchart"
+        android:dividerHeight="1dp"
+        android:divider="#98dad3" >
+    </ListView>
+
+    <Button android:id="@+id/btnchart"
+        android:text="View Chart Results"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#305d7b"
+        android:visibility="visible"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
