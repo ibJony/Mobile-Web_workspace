@@ -11,3 +11,15 @@ Lack of a local Applications to centralize data.
 
 Proposed solution: 
 * Updata Android Application aims to centralize and organize all the relevant information in easily accessible manner on your android device.
+
+
+<details>
+<table>
+  <tr>
+    <td><img src="./presentations/updata/updata1.png"></td>
+    <td><img src="./presentations/updata/updata2.png"></td>
+    <td><img src="./presentations/updata/updata3.png"></td>
+    <td><img src="./presentations/updata/updata4.png"></td>
+  </tr>
+ </table>
+</details>
