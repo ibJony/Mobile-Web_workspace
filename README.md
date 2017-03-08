@@ -1,5 +1,7 @@
 <<<<<<< HEAD
-## project_workspace
+## Pitch: Mobile apps
+
+## Java app projects
 
 #### UpData mobile app - 2015/2016
 
@@ -24,6 +26,3 @@ Proposed solution:
   </tr>
  </table>
 </details>
-=======
-## Java app projects
->>>>>>> d3d0159ed080cab2a35ff6a27f2ba6912d1c66d9
