@@ -75,3 +75,30 @@ Proposed solution:
  Kento for mentorship and guidance developing this application
 
 </details>
+
+
+#### Mathematics Chat app - 2016/2017
+#### E-Lecture Interactive System
+
+Problem/Challenge identified: 
+* Main Problem: Need to have a digital Lecture system in pace with the Technology to make use of latest technological devices for learning.
+* The difficulty in having a Mathematics symbols inclusion in most keyboards making it impossible to a clear mathematical language in existing platforms online/offline.
+
+E-Lecture Web application:  - The web application having main component as: 
+* Chat Platform- this is mainly a posting text area with embedded Mathematical keyboard to allow the users to communicate purely in mathematical language.
+* The posted information is saved in a central database, where it auto updates and information is viewed on the chat view having the username of the person posting at the end.
+* List view which is to enable viewing of in formation from the central database posted via mobile or web.
+* A text area to enable posting of information to the central database which is automatically view on the text area and web chat view.
+
+<details>
+<img src="./presentations/mypoll/scie_chat1.jpg">
+<table>
+  <tr>
+    <td><img src="./presentations/sci_chat/scie_chat2.png"></td>
+    <td><img src="./presentations/sci_chat/scie_chat3.png"></td>
+  </tr>
+ </table>
+
+ ###### Credits: 
+ Dr. Waweru Kamaku (PhD), Lecturer JKUAT - Department of Pure and Applied Mathematics
+</details>
