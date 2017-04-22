@@ -12,7 +12,7 @@ Problem/Challenge identified:
 Proposed solution: 
 * We proposed mypoll android app.
 
-<details>
+<Screenshots>
 <table>
   <tr>
     <td><img src="./presentations/mypoll/mypoll1.png"></td>
@@ -22,7 +22,7 @@ Proposed solution:
 
  ###### Credits: 
  Masterclass Ltd Kenya for the opportunity as a developer
-</details>
+</Screenshots>
 
 
 #### UpData mobile app - 2015/2016
@@ -38,7 +38,7 @@ Proposed solution:
 * Updata Android Application aims to centralize and organize all the relevant information in easily accessible manner on your android device.
 
 
-<details>
+<Screenshots>
 <table>
   <tr>
     <td><img src="./presentations/updata/updata1.png"></td>
@@ -47,7 +47,7 @@ Proposed solution:
     <td><img src="./presentations/updata/updata4.png"></td>
   </tr>
  </table>
-</details>
+</Screenshots>
 
 
 #### UpData mobile app - 2016
@@ -63,7 +63,7 @@ Proposed solution:
 * Promote local tourism to as many mobile users as possible
 * The MEFYND Application will be built on Android 2 and above
 
-<details>
+<Screenshots>
 <table>
   <tr>
     <td><img src="./presentations/talii/talii1.png"></td>
@@ -74,7 +74,7 @@ Proposed solution:
  ###### Credits: 
  Kento for mentorship and guidance developing this application
 
-</details>
+</Screenshots>
 
 
 #### Mathematics Chat app - 2016/2017
@@ -90,8 +90,8 @@ E-Lecture Web application:  - The web application having main component as:
 * List view which is to enable viewing of in formation from the central database posted via mobile or web.
 * A text area to enable posting of information to the central database which is automatically view on the text area and web chat view.
 
-<details>
-<img src="./presentations/mypoll/scie_chat1.jpg">
+<Screenshots>
+<img src="./presentations/sci_chat/scie_chat1.jpg">
 <table>
   <tr>
     <td><img src="./presentations/sci_chat/scie_chat2.png"></td>
@@ -101,4 +101,4 @@ E-Lecture Web application:  - The web application having main component as:
 
  ###### Credits: 
  Dr. Waweru Kamaku (PhD), Lecturer JKUAT - Department of Pure and Applied Mathematics
-</details>
+</Screenshots>
