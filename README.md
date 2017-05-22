@@ -3,6 +3,10 @@
 
 ## Java app projects
 
+<details>
+<p>Old school alert: This repo was updated to Github later.</p>
+</details>
+
 #### Mypoll app - 2016/2017
 
 Problem/Challenge identified: 
