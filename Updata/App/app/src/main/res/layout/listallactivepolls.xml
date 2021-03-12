@@ -1,0 +1,28 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/lablename"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:text="Active polls"
+        android:layout_marginTop="10dip"
+        android:paddingBottom="10dip"/>
+    <ListView
+        android:id="@+id/pollcom"
+        android:layout_below="@+id/lablename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#98dad3" >
+    </ListView>
+
+</RelativeLayout>

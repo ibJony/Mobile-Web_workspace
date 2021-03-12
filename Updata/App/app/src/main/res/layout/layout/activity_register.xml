@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MyPoll Application"
+            android:textColor="#0000ff"
+            android:textStyle="bold"
+            android:textSize="20dip"
+            android:id="@+id/tv_poll_app"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Username:"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:id="@+id/tv_create_sername"
+            android:layout_below="@+id/tv_poll_app"/>
+
+        <EditText android:id="@+id/txtEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_below="@id/tv_create_sername"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Default Pollcode:"
+            android:id="@+id/tv_default_poll"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"/>
+
+        <Spinner android:id="@+id/opt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:prompt="@string/prompt"
+            android:layout_below="@+id/tv_default_poll"
+            android:spinnerMode="dialog" />
+
+        <Button android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_below="@+id/opt"
+            android:background="#305d7b"
+            android:layout_margin="10dip"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
