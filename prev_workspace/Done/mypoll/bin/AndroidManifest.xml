@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jon.mypoll"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.jon.mypoll.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.androidhive.pushnotifications.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.jon.mypoll.PollCodeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.jon.mypoll.Option2"></activity>
+        <activity android:name="com.jon.mypoll.Option3"></activity>
+        <activity android:name="com.jon.mypoll.Option1"></activity>
+        <activity android:name="com.jon.mypoll.Option4"></activity>
+        <activity android:name="com.jon.mypoll.PollStats"></activity>
+        <activity android:name="com.jon.mypoll.PollStats11"></activity>
+        <activity android:name="com.jon.mypoll.Pollcomments"></activity>
+        <activity android:name="com.jon.mypoll.gcm.MainActivity"></activity>
+        <activity android:name="org.achartengine.GraphicalActivity" android:launchMode="singleInstance"></activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                
+                <category android:name="com.jon.mypoll.gcm" />
+                
+            </intent-filter>
+        </receiver>
+        
+	<service android:name="com.jon.mypoll.gcm.GCMIntentService" />
+    </application>
+</manifest>

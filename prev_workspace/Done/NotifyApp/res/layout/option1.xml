@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dip"
+    android:paddingTop="10dip"
+    android:layout_gravity="center" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        	android:id="@+id/pollQn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:paddingBottom="20dip"/>
+    
+    <RadioGroup
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:labelFor="@+id/radio0"
+            android:paddingBottom="5dip"
+            android:paddingRight="25dip"
+            android:paddingLeft="15dip"
+            android:text="Yes"
+            android:textSize="20dip" />-->
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dip" />
+
+<!--         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:labelFor="@+id/radio1"
+            android:paddingBottom="5dip"
+            android:paddingRight="25dip"
+            android:paddingLeft="25dip"
+            android:text="No"
+            android:textSize="20dip" />--> 
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" />
+    </RadioGroup>
+    
+    <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:background="@null"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+    
+    <Button android:id="@+id/btnStats1"
+        android:text="View Statistics"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginTop="20dip"/>
+    
+</LinearLayout>
+</ScrollView>

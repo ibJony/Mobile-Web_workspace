@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dip"
+    android:paddingTop="5dip"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        	android:id="@+id/pollQn3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:paddingBottom="10dip" />
+    
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:paddingBottom="20dip"
+            android:labelFor="@+id/txtcomment"
+            android:text="Comment" />
+    
+    <EditText
+            android:id="@+id/txtcomment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dip"
+            android:lines="3"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:paddingBottom="5dip"
+            android:labelFor="@+id/txtby1"
+            android:text="Submitted by" />
+    <EditText
+            android:id="@+id/txtby2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="5dip"
+            android:lines="1"/>
+
+    <Button
+            android:id="@+id/btnpollsubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:text="Submit"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+    
+    <Button android:id="@+id/btnStats3"
+        android:text="View Results"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="15dip"/>
+</LinearLayout>
+</ScrollView>    
