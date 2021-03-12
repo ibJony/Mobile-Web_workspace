@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<places>
+		<place name="Restaurants" abbreviation="restaurant" />
+		<place name="Hotels" abbreviation="hotel" />
+		<place name="Bars and Night Clubs" abbreviation="bar" />
+		<place name="Gameparks and Reserves" abbreviation="game" />
+		<place name="Camping Sites" abbreviation="campsite" />
+		<place name="Alert Report" abbreviation="museum" />
+</places>

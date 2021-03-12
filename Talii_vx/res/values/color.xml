@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textbold">#4c3f38    </color>
+    <color name="textthin">#222    </color>
+    <color name="garry">#4c2e22    </color>
+    <color name="space_menu">#cccccc    </color>
+    <color name="diviler">#c0b6af	</color>
+    <color name="menu">#999999	</color>
+
+</resources>

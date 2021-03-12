@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">MyPOLL</string>
+    <string name="str_btn_chart">Pie Chart</string>
+    <string name="prompt">Select PollCode</string>
+    <string name="comment">Comment</string>
+    <string name="updated_at">updated at</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+	<RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"> 
+	    
+	     <!--  Header Starts-->
+	    <LinearLayout android:id="@+id/header"
+	    	android:layout_width="fill_parent"
+	    	android:background="#333"
+	    	android:padding="10dip"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	        android:gravity="center">
+        
+       <ImageView android:src="@drawable/launcher"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+        
+        <TextView android:id="@+id/txt_talii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00F"
+            android:textSize="26dip"
+            android:layout_marginLeft="40dip"
+            android:text="Talii Africa " />
+               
+        
+        <!-- Logo Ends -->
+	</LinearLayout>
+        <!--  Header Ends -->
+    
+     <LinearLayout android:id="@+id/body"
+          
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/header"
+          android:paddingBottom="40dip">	
+	            
+    <!--  List view -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        />
+    </LinearLayout>
+    
+    <!-- Show on Map button -->
+    <Button android:id="@+id/btn_show_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Map View"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dip"
+        android:textSize="20dip"
+        android:background="#333"
+        android:textColor="#FFF" 
+        android:padding="10dip" />   
+ 
+</RelativeLayout>
