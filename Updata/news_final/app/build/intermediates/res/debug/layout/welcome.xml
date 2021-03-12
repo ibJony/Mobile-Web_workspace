@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_row_end_color" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+    
+    <ImageView
+        android:id="@+id/pic3.png"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_pages" />
+    
+    
+   <Button
+            android:id="@+id/btnpic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:background="@null"
+            android:text="Welcome to Updata Mobile Application,Click here to continue>>>>..."
+            android:textColor="#21dbd4"
+            android:textStyle="bold"
+        	android:paddingTop="80dp" />
+      
+
+	</LinearLayout>
+</RelativeLayout><!-- From: file:/D:/Kyle/AndTrials/news_final/app/src/main/res/layout/welcome.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">17dp</dimen>
+    <dimen name="descrip">13dip</dimen>
+    <dimen name="created_at">12dip</dimen>
+    <dimen name="updated_at">12dip</dimen>
+    <dimen name="footer">45dip</dimen>
+    
+    <dimen name="feed_item_padding_top_bottom">20dp</dimen>
+    <dimen name="feed_item_padding_left_right">15dp</dimen>
+    <dimen name="feed_item_corner_radius">15dp</dimen>
+    <dimen name="feed_item_border_width">1dp</dimen>
+    
+</resources>
