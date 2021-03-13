@@ -1,1 +1,1 @@
-# project_workspace
+## Java app projects
