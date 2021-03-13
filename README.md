@@ -2,6 +2,28 @@
 
 ## Java app projects
 
+#### Mypoll app - 2016/2017
+
+Problem/Challenge identified: 
+* Main Problem: The technology shift from web to mobile apps was becoming evident. Most organisations needed to be able to collect data from users using mobile phones. 
+* Running web based surveys was becoming challenging due to accessibility issues. We were tasked to develop a mobile app to collect data from Campus students.
+
+Proposed solution: 
+* We proposed mypoll android app.
+
+<details>
+<table>
+  <tr>
+    <td><img src="./presentations/mypoll/mypoll1.png"></td>
+    <td><img src="./presentations/mypoll/mypoll2.png"></td>
+  </tr>
+ </table>
+
+ ###### Credits: 
+ Masterclass Ltd Kenya for the opportunity as a developer
+</details>
+
+
 #### UpData mobile app - 2015/2016
 
 Problem/Challenge identified: 
