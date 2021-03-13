@@ -90,11 +90,11 @@ E-Lecture Web application:  - The web application having main component as:
 * A text area to enable posting of information to the central database which is automatically view on the text area and web chat view.
 
 <details>
-<img src="./presentations/sci_chat/scie_chat1.jpg">
+<img src="./presentations/scie_chat/scie_chat1.jpg">
 <table>
   <tr>
-    <td><img src="./presentations/sci_chat/scie_chat2.png"></td>
-    <td><img src="./presentations/sci_chat/scie_chat3.png"></td>
+    <td><img src="./presentations/scie_chat/scie_chat2.png"></td>
+    <td><img src="./presentations/scie_chat/scie_chat3.png"></td>
   </tr>
  </table>
 
