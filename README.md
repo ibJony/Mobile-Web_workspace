@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Pitch: Mobile apps
 
 ## Java app projects
